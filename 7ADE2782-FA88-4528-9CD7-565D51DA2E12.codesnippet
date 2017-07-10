@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>@login</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>CodeBlock</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>if (![JDSUtil isLogin]) {
+        [JDSUtil loginWithSelf:self];
+    } else {
+        ///
+    }</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>7ADE2782-FA88-4528-9CD7-565D51DA2E12</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>if (![JDSUtil isLogin]) {
+        [JDSUtil loginWithSelf:self];
+    } else {
+        LoanDetailViewController *VC = [[LoanDetailViewController alloc] init];
+        pushVC(VC);
+    }</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>if (![JDSUtil isLogin]) {
+        [JDSUtil loginWithSelf:self];
+    } else {
+        LoanDetailViewController *VC = [[LoanDetailViewController alloc] init];
+        pushVC(VC);
+    }</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

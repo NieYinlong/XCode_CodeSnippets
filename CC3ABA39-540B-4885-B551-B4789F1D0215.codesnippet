@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>@addTarget</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>CodeBlock</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>[&lt;#(UIControlEvents)#&gt; addTarget:self action:@selector(&lt;#(UIControlEvents)#&gt;) forControlEvents:(UIControlEventTouchUpInside)];</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>CC3ABA39-540B-4885-B551-B4789F1D0215</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>[&lt;#(UIControlEvents)#&gt; addTarget:self action:@selector(&lt;#(UIControlEvents)#&gt;) forControlEvents:&lt;#(UIControlEvents)#&gt;];</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>[&lt;#(UIControlEvents)#&gt; addTarget:self action:@selector(&lt;#(UIControlEvents)#&gt;) forControlEvents:&lt;#(UIControlEvents)#&gt;];</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

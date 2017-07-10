@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>@postResult</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>CodeBlock</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>[MBProgressHUD showHUDAddedTo:self.view animated:YES];
+NSMutableDictionary *param = [JDSUtil jdsDictionary];
+    [param setValue: forKey:SERVICE];
+    [param setValue: forKey:@""];
+    [param setValue: forKey:@""];
+    NSDictionary *content = @{@"content": [JDSUtil toJSONString:param]};
+    __weak typeof(self)weakSelf = self;
+    [[NetWorkUtil shareInstace] postResultWithParameter:content successBlock:^(id resDict) {
+    [MBProgressHUD hideHUDForView:weakSelf.view animated:YES];
+        if ([kNetValue isEqualToString:@"200"]) {
+            
+            
+        } else {
+            [HudUtil showSimpleTextOnlyHUD:kNetMessage withDelaySeconds:1.0];
+        }
+    } failureBlock:^(NSString *error) {
+        [MBProgressHUD hideHUDForView:weakSelf.view animated:YES];
+        [HudUtil showSimpleTextOnlyHUD:kNetConnectFailedAlert withDelaySeconds:1.0];
+        
+    }];</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>2F203FF0-21A2-42C7-A4E1-F0BA6FE05E71</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>[[NetWorkUtil shareInstace] postResultWithParameter:content successBlock:^(id resDict) </string>
+	<key>IDECodeSnippetTitle</key>
+	<string>post请求</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>@initWithFrame:(CGRect)frame</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>ClassImplementation</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>- (instancetype)initWithFrame:(CGRect)frame
+{
+    self = [super initWithFrame:frame];
+    if (self) {
+        [self initViewFrame:frame];
+    }
+    return self;
+}
+
+- (void)initViewFrame:(CGRect)frame {
+    
+}</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>8DBCE142-DC67-4A12-AC92-EEB0567ADADF</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>- (instancetype)initWithFrame:(CGRect)frame
+{
+    self = [super initWithFrame:frame];
+    if (self) {
+        [self addsubviewWithFrame:frame];
+    }
+    return self;
+}
+
+- (void)addsubviewWithFrame:(CGRect)frame {
+    
+}
+</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>- (instancetype)initWithFrame:(CGRect)frame</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>
